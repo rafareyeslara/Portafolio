@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formularios en HTML</title>
+</head>
+<style>
+	
+</style>
+<body>
+	<h1>Formulario de registro</h1>
+
+		<form action="" method="post" enctype="text/plain">
+
+			  <fieldset>
+			  	
+			  	<legend>Datos del usuario</legend>
+			  	<label for="user">Nombre de usuario: </label>
+			  	<input type="text" name="user" id="user" placeholder="Username" size="100" maxlength="10" title="Nombre de usuario" required><br/>
+			  	<label for="pass">Password:</label>
+			  	<input type="Password" name="pass" id="pass" size="15" maxlength="30" placeholder="Contraseña" title="Contraseña" required><br/>
+			  	<label for="nombre">Nombre:</label>
+			  	<input type="text" name="nombre" id="nombre"><br/>
+			  	<label for="ap">Apellido paterno</label>
+			  	<input type="text" name="ap" id="ap"><br/>
+			  	<label for="am">Apellido materno</label>
+			  	<input type="text" name="am" id="am"><br/>
+			  	<label for="sugerencias">Sugerencias:</label>
+			  	<label for="correo">E-mail</label>
+			  	<input type="email" name="correo" id="correo"><br/>
+			  	<textarea name="sugerencia" rows="5" cols="35" id="sugerencia"></textarea>
+			  	<label for="fechanac">Fecha de nacimiento:</label>
+			  	<input type="date" name="fechanac" id="fechanac"><br/>
+
+			  	<label for="curp">Adjunta tu curp</label>
+			  	<input type="file" name="curp" id="curp"><br/>
+
+			  	<h3>Pasatiempos</h3>
+			  	<input type="checkbox" name="pasa1" id="pasa1" value="1" checked>
+			  	<label for="pasa1">Leer</label><br/>
+			  	<input type="checkbox" name="pasa2" id="pasa2" value="2">
+			  	<label for="pasa2">Caminar</label>
+			  	<input type="checkbox" name="musica" id="musica" value="3">
+			  	<label for="musica">Escuchar música</label><br/>
+
+			  	<h3>Indica tu género</h3>
+			  	<input type="radio" name="genero" id="genero">
+			  	<label for="genero">Femenino</label><br/>
+			  	<input type="radio" name="genero" id="genero">
+			  	<label for="genero">Masculino</label><br/>
+
+			  	<h3>Selecciona una carrera</h3>
+			  	<select name="carreras" id="carreras" size="5">
+			  		<optgroup label="Ingenierias">
+			  		<option value="1" selected>ITI</option>
+			  		<option value="2">ITEM</option>
+			  		<option value="3">ISTI</option>
+			  		<option value="4">ITMA</option>
+			  		</optgroup>
+			  		<optgroup label="Licenciaturas">
+			  		<option value="5">LAG</option>
+			  		<option value="6">LMKT</option>
+			  		</optgroup>
+			  	</select><br/>
+
+			  	<input type="submit" name="enviar" id="enviar" value="enviar datos">
+			  </fieldset>
+			  	
+
+
+
+		</form>
+
+</body>
+</html>
