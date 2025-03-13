@@ -1,0 +1,52 @@
+/*Hoja de estilos  externa*/
+
+body{
+	font-family: arial, verdana, sans-serif;
+
+}
+
+table{
+	width: 90%;
+	margin: auto;
+	border: 1px solid lightgray;
+	border-collapse: collapse;
+	caption-side: top;
+}
+
+/*Todos los th y td*/
+th,td{
+	border: 1px solid lightgray;
+}
+
+table tr:nth-child(odd){
+	background-color: beige;
+}
+
+table tr:nth-child(even){
+	background-color: steelblue;
+	color: white;
+}
+
+th{
+	background-color: darkgreen;
+	color: white;
+	padding: 14px;
+}
+
+td{
+	padding: 12px;
+	text-align: justify;
+}
+
+/*Si quisieramos que fuera toda la fila le pondriamos en vez de td le ponemos tr*/
+table td:hover{
+	background-color: darkblue;
+	color: white;
+}
+/*Todos los a que esten dentro de li
+
+
+li a{
+
+}
+*/
