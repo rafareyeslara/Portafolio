@@ -1,0 +1,30 @@
+.capa1{
+	border: 1px solid gray;
+	border-radius: 20px 40px 10px 5px;
+	-moz-border-radius: 20px 40px 10px 5px;
+	-webkit-border-radius: 20px 40px 10px 5px;
+	box-shadow: rgb(50, 0, 0) 5px 5px 100px;
+
+}
+
+.t1{
+	font-family: arial,verdana,sans-serif;
+	font-size: 18px;
+	text-shadow: rgb(100, 50, 0) 10px 5px 5px;
+	text-align: center;
+
+}
+
+.capa2{
+	background: linear-gradient(bottom,white,lightblue);
+	background: -moz-linear-gradient(bottom,white,lightblue);
+	background: -webkit-linear-gradient(45deg,white,lightblue);
+}
+
+.capa3{
+	border: 1px solid gray;
+	text-align: center;
+	background: radial-gradient(top,white,lightblue);
+	background: -moz-radial-gradient(top,ellipse,white 10%,lightblue);
+	background: -webkit-radial-gradient(top,ellipse,white 10%,lightblue);
+}
