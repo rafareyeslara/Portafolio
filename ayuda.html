@@ -6,6 +6,7 @@
 <title>Ayuda - Fender Guitars</title>
 <link rel="stylesheet" href="estilos.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script type="text/javascript" src="contacto.js"></script>
 <script>
 window.addEventListener('mouseover', initLandbot, { once: true });
 window.addEventListener('touchstart', initLandbot, { once: true });
@@ -39,6 +40,18 @@ function initLandbot() {
 </nav>
  
     <section class="products">
+      <h2>Ayuda</h2>
+        <p>Email: info@guitarco.com</p>
+        <p>Teléfono: 123-456-7890</p>
+        <form name="formulario">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje"></textarea><br>
+            <input type="submit" value="Enviar" onclick="leer()">
+        </form>
 <h2>Formulario de Cotización</h2>
 <form id="cotizacionForm" onsubmit="return generarCotizacion(event)">
 <label for="nombre">Nombre:</label><br>
